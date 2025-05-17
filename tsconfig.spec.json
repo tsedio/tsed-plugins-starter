@@ -1,0 +1,36 @@
+{
+  "extends": "@tsed/typescript/tsconfig.node.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noEmit": true,
+    "composite": false,
+    "declarationMap": false,
+    "types": [
+      "vitest/globals",
+      "vitest/importMeta",
+      "vite/client",
+      "node",
+      "vitest"
+    ],
+    "paths": {
+      "@tsedio/testcontainers-redis": [
+        "./packages/testcontainers/redis/src/index.ts"
+      ],
+      "@tsedio/testcontainers-redis/vitest/setup": [
+        "./packages/testcontainers/redis/src/setup/vi.setup.ts"
+      ]
+    }
+  },
+  "include": [
+    "vitest.*.mts",
+    "**/vitest.*.mts",
+    "**/*.ts"
+  ],
+  "exclude": [
+    "dist",
+    "**/lib/**",
+    "**/templates/**",
+    "**/barrels/**",
+    "./packages/**/project-name/**/*.ts"
+  ]
+}

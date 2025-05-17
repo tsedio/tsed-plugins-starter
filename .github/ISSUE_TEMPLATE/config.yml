@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussions
+    url: https://github.com/tsedio/tsed/discussions
+    about: Open a discussion that can be followed by the whole community on Github!
+  - name: 💬 Community channel (Slack)
+    url: https://slack.tsed.dev
+    about: Join our slack workspace to discuss directly wiht the team!

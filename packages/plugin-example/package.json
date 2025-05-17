@@ -1,0 +1,46 @@
+{
+  "name": "@tsedio/plugins-example",
+  "description": "",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./lib/esm/index.js",
+  "source": "./src/index.ts",
+  "module": "./lib/esm/index.js",
+  "typings": "./lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "tsed-source": "./src/index.ts",
+      "types": "./lib/types/index.d.ts",
+      "import": "./lib/esm/index.js",
+      "default": "./lib/esm/index.js"
+    }
+  },
+  "scripts": {
+    "build": "yarn build:ts",
+    "build:ts": "tsc --build tsconfig.esm.json",
+    "test": "vitest run --silent=false",
+    "test:ci": "vitest run --coverage.thresholds.autoUpdate=true"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "Ts.ED",
+    "tsed",
+    "typescript",
+    "plugin"
+  ],
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "tslib": "^2.7.0"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3"
+  },
+  "peerDependencies": {
+  },
+  "peerDependenciesMeta": {
+  }
+}
