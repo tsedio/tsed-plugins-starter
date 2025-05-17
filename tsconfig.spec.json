@@ -13,11 +13,8 @@
       "vitest"
     ],
     "paths": {
-      "@tsedio/testcontainers-redis": [
-        "./packages/testcontainers/redis/src/index.ts"
-      ],
-      "@tsedio/testcontainers-redis/vitest/setup": [
-        "./packages/testcontainers/redis/src/setup/vi.setup.ts"
+      "@tsedio/plugins-example": [
+        "./packages/plugin-example/src/index.ts"
       ]
     }
   },

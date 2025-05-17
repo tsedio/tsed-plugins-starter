@@ -4,8 +4,8 @@
     "baseUrl": ".",
     "noEmit": true,
     "paths": {
-      "@tsedio/testcontainers-redis": [
-        "./packages/testcontainers/redis/src/index.ts"
+      "@tsedio/plugins-example": [
+        "./packages/plugin-example/src/index.ts"
       ]
     }
   },

@@ -4,13 +4,8 @@
     "baseUrl": "."
   },
   "include": [],
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    },
-    {
-      "path": "./tsconfig.spec.json"
-    }
-  ],
-  "exclude": ["node_modules"]
+  "references": [],
+  "exclude": [
+    "node_modules"
+  ]
 }
