@@ -18,14 +18,88 @@
   <hr />
 </div>
 
-## Install
 
-The repository is a template to create and publish plugins for Ts.ED framework.
-It gives you a monorepo structure to manage multiple packages.
+This repository provides a template for developing, testing, and publishing plugins for the [Ts.ED](https://tsed.io) framework, using a monorepo architecture.
 
-All plugins are located in the `packages` folder. 
+## ✨ Features
 
+* **Monorepo structure** — All plugins are organized under the `packages/` directory.
+* **CI/CD ready** — GitHub Actions are configured to build and publish packages automatically.
+* **Code quality tools** — Includes pre-configured [ESLint](https://eslint.org/), [Prettier](https://prettier.io/), and [Commitlint](https://commitlint.js.org/) to ensure consistency across the codebase.
+* **Testing** — Uses [Vitest](https://vitest.dev/) for unit testing.
+* **Scalable** — Easily add and manage multiple packages in a single repository.
 
+## 🚀 Getting Started
+
+Install project dependencies:
+
+```bash
+yarn install
+```
+
+## 🛠️ Build
+
+To build all packages in the monorepo and generate their respective `dist/` folders, run:
+
+```bash
+yarn build
+```
+
+---
+
+## 🧱 Adding a New Plugin
+
+To create a new plugin in the monorepo:
+
+1. Use the following command to create a new workspace:
+
+   ```bash
+   yarn workspace create @tsed/my-plugin
+   ```
+
+   Or manually create a folder under `packages/`:
+
+   ```bash
+   mkdir packages/my-plugin
+   cd packages/my-plugin
+   yarn init -y
+   ```
+
+2. Copy files from the `packages/plugin-example/` directory to your new plugin directory. The structure should look like this`:
+
+   ```
+   packages/
+   └── my-plugin/
+       ├── src/
+       │   └── index.ts
+       ├── test/
+       │   └── integration.spec.ts (optional)
+       ├── .gitignore 
+       ├── .npmignore
+       ├── package.json
+       ├── readme.md
+       ├── tsconfig.esm.json
+       └── vitest.config.mts
+   ```
+
+3. Run `yarn build:references` to generate the paths in `tsconfig.*.json` files.
+4. Build your plugin:
+
+   ```bash
+   yarn build
+   ```
+
+---
+
+## 🚢 Publishing Workflow
+
+Package publishing is automated via GitHub Actions.
+
+* Each plugin has its own version defined in its `package.json` but monorepo tools update all package version with the same version number.
+* On each push to the `main` branch:
+  * The `build.yml` workflow is triggered.
+  * It uses semantic release to increment the version based on commit messages.
+  * All packages are automatically published to the NPM registry.
 
 ## Contributors
 

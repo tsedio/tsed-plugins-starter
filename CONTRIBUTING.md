@@ -85,7 +85,7 @@ npm install -g gflow
 
 ```bash
 git fetch
-git branch --no-track -b feat-branch-name origin/master  # !IMPORTANT
+git branch --no-track -b feat-branch-name origin/main  # !IMPORTANT
 yarn
 
 ## OR
@@ -94,7 +94,7 @@ gflow new feat name_of_feat
 
 ### Commit & Push a feature
 
-This command rebases your branch feature from the master branch, runs the test, and pushes your branch.
+This command rebases your branch feature from the main branch, runs the test, and pushes your branch.
 
 ```bash
 git commit -m "feat(domain): Your message"
@@ -104,7 +104,7 @@ Then:
 ```bash
 npm run test
 git fetch
-git rebase origin/master
+git rebase origin/main
 git push -f
 
 # OR using gflow (run fetch, rebase and push for you)

@@ -7,9 +7,6 @@ export default defineConfig(
     ...presets,
     test: {
       ...presets.test,
-      globalSetup: [
-        "../../testcontainers/redis/src/setup/vi.setup.ts"
-      ],
       coverage: {
         ...presets.test?.coverage,
         thresholds: {
