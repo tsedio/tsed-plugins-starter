@@ -16,7 +16,8 @@
     }
   },
   "scripts": {
-    "build": "yarn build:ts",
+    "build": "yarn barrels && yarn build:ts",
+    "barrels": "barrels",
     "build:ts": "tsc --build tsconfig.esm.json",
     "test": "vitest run --silent=false",
     "test:ci": "vitest run --coverage.thresholds.autoUpdate=true"
@@ -31,16 +32,13 @@
     "plugin"
   ],
   "engines": {
-    "node": ">=14"
+    "node": ">=20"
   },
   "dependencies": {
-    "tslib": "^2.7.0"
+    "tslib": "2.8.1"
   },
   "devDependencies": {
+    "@tsed/barrels": "6.4.2",
     "typescript": "5.8.3"
-  },
-  "peerDependencies": {
-  },
-  "peerDependenciesMeta": {
   }
 }

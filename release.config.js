@@ -10,7 +10,7 @@ export default {
   verifyConditions: [
     "@semantic-release/github",
     "@semantic-release/npm",
-    "@tsed/monorepo-utils/semantic-release",
+    "@tsed/monorepo-utils/semantic-release"
     //"semantic-release-slack-bot"
   ],
   analyzeCommits: ["@semantic-release/commit-analyzer"],
@@ -20,7 +20,7 @@ export default {
   publish: ["@tsed/monorepo-utils/semantic-release", "@semantic-release/github"],
   success: [
     "@semantic-release/github",
-    "@tsed/monorepo-utils/semantic-release",
+    "@tsed/monorepo-utils/semantic-release"
     // [
     //   "semantic-release-slack-bot",
     //   {
