@@ -54,7 +54,7 @@
     "@commitlint/cli": "19.5.0",
     "@commitlint/config-conventional": "19.5.0",
     "@swc/core": "1.7.26",
-    "@swc/helpers": "0.5.13",
+    "@swc/helpers": "0.5.17",
     "@tsed/monorepo-utils": "2.3.12",
     "@types/node": "22.7.4",
     "@typescript-eslint/eslint-plugin": "8.7.0",
