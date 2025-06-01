@@ -2347,33 +2347,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsed/openspec@npm:8.8.4":
-  version: 8.8.4
-  resolution: "@tsed/openspec@npm:8.8.4"
-  checksum: 10/c01dc56779cf481b34bbbe3ef14ae04192628b6241cb2a92c7b78b010def71588e436f1871270de088205d5f42698c22ecb8c32c8f6fefdd3f4561780fc5ac2a
+"@tsed/openspec@npm:8.11.0":
+  version: 8.11.0
+  resolution: "@tsed/openspec@npm:8.11.0"
+  checksum: 10/0bd0ea6e8de49dab6fe761c14160eb1ef0452442c127054adaf78a30fcf6bff82e4bd74168047ab2ffbe680d64f1e7b8e2023f120de004ad65234d486f468dd6
   languageName: node
   linkType: hard
 
-"@tsed/schema@npm:8.8.4":
-  version: 8.8.4
-  resolution: "@tsed/schema@npm:8.8.4"
+"@tsed/schema@npm:8.11.0":
+  version: 8.11.0
+  resolution: "@tsed/schema@npm:8.11.0"
   dependencies:
-    "@tsed/openspec": "npm:8.8.4"
+    "@tsed/openspec": "npm:8.11.0"
     change-case: "npm:^5.4.4"
     json-schema: "npm:0.4.0"
     picomatch: "npm:4.0.2"
     statuses: "npm:^2.0.1"
     tslib: "npm:2.7.0"
   peerDependencies:
-    "@tsed/core": ">=8.8.4"
-    "@tsed/hooks": ">=8.8.4"
-    "@tsed/openspec": ">=8.8.4"
+    "@tsed/core": ">=8.0.0"
+    "@tsed/hooks": ">=8.0.0"
+    "@tsed/openspec": ">=8.0.0"
   peerDependenciesMeta:
     "@tsed/core":
       optional: false
     "@tsed/openspec":
       optional: false
-  checksum: 10/9021a1031d2d0f96be01d9e3abe8cf96816470ef2f771b0b1f909a384c3a0ee13256bfa84a4060c69df1ae54e0326fda42c381b23818247a7efa870e59e842af
+  checksum: 10/71fff918307aca0a1815c3058d3182c002840dbf3b78e3fba4e47485818d4efa4eb279e0c9d1fa52728b723fad644586a5cb9eb35e4b196261ca3be0c94e3963
   languageName: node
   linkType: hard
 
@@ -2415,7 +2415,7 @@ __metadata:
     "@tsed/hooks": "npm:8.8.4"
     "@tsed/logger": "npm:7.0.2"
     "@tsed/monorepo-utils": "npm:2.3.12"
-    "@tsed/schema": "npm:8.8.4"
+    "@tsed/schema": "npm:8.11.0"
     "@types/node": "npm:22.7.4"
     "@typescript-eslint/eslint-plugin": "npm:8.7.0"
     "@typescript-eslint/parser": "npm:8.7.0"

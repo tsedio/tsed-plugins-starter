@@ -42,7 +42,7 @@
     "@tsed/di": "8.8.4",
     "@tsed/hooks": "8.8.4",
     "@tsed/logger": "7.0.2",
-    "@tsed/schema": "8.8.4",
+    "@tsed/schema": "8.11.0",
     "fs-extra": "11.3.0",
     "globby": "14.1.0",
     "lerna": "8.2.2",
