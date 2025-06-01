@@ -71,7 +71,7 @@
     "is-ci": "4.1.0",
     "lint-staged": "16.0.0",
     "prettier": "3.5.3",
-    "semantic-release": "24.2.4",
+    "semantic-release": "24.2.5",
     "typescript": "5.8.3",
     "unplugin-swc": "1.5.3",
     "vitest": "3.1.3"
