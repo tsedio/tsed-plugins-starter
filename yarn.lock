@@ -2292,13 +2292,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tsed/hooks@npm:8.8.4":
-  version: 8.8.4
-  resolution: "@tsed/hooks@npm:8.8.4"
+"@tsed/hooks@npm:8.11.0":
+  version: 8.11.0
+  resolution: "@tsed/hooks@npm:8.11.0"
   dependencies:
     reflect-metadata: "npm:^0.2.2"
     tslib: "npm:2.7.0"
-  checksum: 10/f849c83a9b483bd02058577a75bac23e0a94dbc70708e7b1d35dd9c591268d5022580f6fa9905d3cc7914b7c1ac967be983e639cb6593702afca9afd6f641afb
+  checksum: 10/204a7c4540cd1d23f1a73d515ab3e75ce54aa26f7a13c7934a595825b23e8c0f5146cebbc170c2ae254a86309146d662e0148178cd081f66d29804a98b6fe141
   languageName: node
   linkType: hard
 
@@ -2412,7 +2412,7 @@ __metadata:
     "@swc/helpers": "npm:0.5.17"
     "@tsed/core": "npm:8.8.4"
     "@tsed/di": "npm:8.8.4"
-    "@tsed/hooks": "npm:8.8.4"
+    "@tsed/hooks": "npm:8.11.0"
     "@tsed/logger": "npm:7.0.2"
     "@tsed/monorepo-utils": "npm:2.3.12"
     "@tsed/schema": "npm:8.8.4"
