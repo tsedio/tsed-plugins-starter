@@ -2416,7 +2416,7 @@ __metadata:
     "@tsed/logger": "npm:7.0.2"
     "@tsed/monorepo-utils": "npm:2.3.12"
     "@tsed/schema": "npm:8.8.4"
-    "@types/node": "npm:22.7.4"
+    "@types/node": "npm:24.0.8"
     "@typescript-eslint/eslint-plugin": "npm:8.7.0"
     "@typescript-eslint/parser": "npm:8.7.0"
     "@vitest/coverage-v8": "npm:3.1.3"
@@ -2530,12 +2530,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.7.4":
-  version: 22.7.4
-  resolution: "@types/node@npm:22.7.4"
+"@types/node@npm:24.0.8":
+  version: 24.0.8
+  resolution: "@types/node@npm:24.0.8"
   dependencies:
-    undici-types: "npm:~6.19.2"
-  checksum: 10/19ddab80c4eba2253c855ed67c9bbc47417183049d01e59010a738bd80d47338bab79fd1f44ae51516bd63a1db4bf21ddb38b16bf6401a2e93252068ec52e88b
+    undici-types: "npm:~7.8.0"
+  checksum: 10/99edcbdb1bd2c55d02d989deaccef9ff25c9094be7c7ee7c0b0ed722399bed2138e2fcee7c8fd76fe8da79e83735f3b129ee2fca7caa9bafb0f22b7418486730
   languageName: node
   linkType: hard
 
@@ -11852,10 +11852,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~6.19.2":
-  version: 6.19.8
-  resolution: "undici-types@npm:6.19.8"
-  checksum: 10/cf0b48ed4fc99baf56584afa91aaffa5010c268b8842f62e02f752df209e3dea138b372a60a963b3b2576ed932f32329ce7ddb9cb5f27a6c83040d8cd74b7a70
+"undici-types@npm:~7.8.0":
+  version: 7.8.0
+  resolution: "undici-types@npm:7.8.0"
+  checksum: 10/fcff3fbab234f067fbd69e374ee2c198ba74c364ceaf6d93db7ca267e784457b5518cd01d0d2329b075f412574205ea3172a9a675facb49b4c9efb7141cd80b7
   languageName: node
   linkType: hard
 
